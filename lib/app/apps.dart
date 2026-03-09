@@ -8,7 +8,7 @@ class MyApps extends StatelessWidget {
     return MaterialApp(
 
 
-      //debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
 
 
 
