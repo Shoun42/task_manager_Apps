@@ -7,7 +7,7 @@ import 'package:task_manager_apps/feature/screen/view/login_screen/login_screen.
 import 'package:task_manager_apps/feature/screen/view/splash_screen/splash_screen_view.dart';
 
 class AppRoutes{
-  static final initailRoute = AppPages.splashScreen;
+  static final initialRoute = AppPages.splashScreen;
   static List <GetPage> routes = [
 
     GetPage(name: AppPages.splashScreen, page: ()=>SplashScreenView(), binding: SplashBindings()),
