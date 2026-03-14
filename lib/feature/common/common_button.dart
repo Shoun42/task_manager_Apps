@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CommonButton extends StatelessWidget {
-  const CommonButton({super.key,   required this.child});
+  const CommonButton({super.key,   required this.child, required ButtonStyle style});
   final VoidCallback child;
   @override
   Widget build(BuildContext context) {
