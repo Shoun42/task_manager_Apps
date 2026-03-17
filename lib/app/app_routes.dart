@@ -7,6 +7,7 @@ import 'package:task_manager_apps/feature/screen/controller/new_task_controller.
 import 'package:task_manager_apps/feature/screen/view/Email_Screen/email_screen.dart';
 import 'package:task_manager_apps/feature/screen/view/PinVarificationScreen/pin_verification_screen.dart' show PinVerificationScreen;
 import 'package:task_manager_apps/feature/screen/view/Set_Password/set_password.dart';
+import 'package:task_manager_apps/feature/screen/view/home%20view/home_view.dart';
 import 'package:task_manager_apps/feature/screen/view/login_screen/login_screen.dart';
 import 'package:task_manager_apps/feature/screen/view/new%20task%20screen/new_task_screen.dart';
 import 'package:task_manager_apps/feature/screen/view/sign%20Up/sign_up.dart';
@@ -22,6 +23,7 @@ class AppRoutes{
     GetPage(name: AppPages.pinVerification, page: ()=>PinVerificationScreen(), binding: LoginScreenBindings()),
     GetPage(name: AppPages.setPasswordScreen, page: ()=>SetPasswordScreen(), binding: LoginScreenBindings()),
     GetPage(name: AppPages.signUpView, page: ()=>RegisterView(), binding: LoginScreenBindings()),
+    GetPage(name: AppPages.homeView, page: ()=>HomeScreen(), binding: ProfileTaskBinding()),
     GetPage(name: AppPages.newTaskView, page: ()=>NewTaskScreen(), binding: ProfileTaskBinding()),
 
 

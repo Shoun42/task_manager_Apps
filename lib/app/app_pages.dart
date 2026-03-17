@@ -6,6 +6,8 @@ class AppPages {
   static final String pinVerification='/PinVerificationScreen';
   static final String setPasswordScreen='/SetPasswordScreen';
   static final String signUpView='/SingUPView';
+  static final String homeView='/homeView';
   static final String newTaskView='/NewTaskView';
+
 
 }
