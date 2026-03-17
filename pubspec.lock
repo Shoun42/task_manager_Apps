@@ -94,8 +94,16 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.0"
+  flutter_screenutil:
+    dependency: "direct main"
+    description:
+      name: flutter_screenutil
+      sha256: "8239210dd68bee6b0577aa4a090890342d04a136ce1c81f98ee513fc0ce891de"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.9.3"
   flutter_svg:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: flutter_svg
       sha256: "055de8921be7b8e8b98a233c7a5ef84b3a6fcc32f46f1ebf5b9bb3576d108355"
@@ -227,6 +235,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.0"
+  pin_code_fields:
+    dependency: "direct main"
+    description:
+      name: pin_code_fields
+      sha256: b9c33ef91da2a959dde3eaa0ec90dfca6a90d5b734cb594bb533a01f7f9732fa
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.1.0"
+  pin_input_text_field:
+    dependency: "direct main"
+    description:
+      name: pin_input_text_field
+      sha256: f45683032283d30b670ec343781660655e3e1953438b281a0bc6e2d358486236
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.2"
+  pinput:
+    dependency: "direct main"
+    description:
+      name: pinput
+      sha256: "4c3f1b84768b47a56a1abdaca551bd7cef4ac673b882209039ecdf803a5d6e68"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.2"
   posix:
     dependency: transitive
     description:
