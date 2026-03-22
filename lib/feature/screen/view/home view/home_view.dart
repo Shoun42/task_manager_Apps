@@ -50,6 +50,7 @@ class HomeScreen extends GetView <HomeScreenController> {
                     "https://i.pravatar.cc/150?img=3",
                   ),
                 ),
+
                 SizedBox(width: 12),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
