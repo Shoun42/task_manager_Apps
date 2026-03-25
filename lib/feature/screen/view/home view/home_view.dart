@@ -94,6 +94,7 @@ class HomeScreen extends GetView <HomeScreenController> {
               itemCount: 5,
               itemBuilder: (context, index) {
                 return const TaskCard( );
+
               },
             ),
           ),
